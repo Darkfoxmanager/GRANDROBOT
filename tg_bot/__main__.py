@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/9c340026e5b3f60937089.jpg"
+TECHNO_IMG = "https://telegra.ph/file/1d80a707cff446e80144a.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -141,9 +141,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/DarkFoxManagerOfficial")],
-                                                                                   [InlineKeyboardButton(text="ADD DARK FOX MANAGER BOT TO YOUR GROUP 😍",
+                                                                                   InlineKeyboardButton(text="🧑‍💻My Hero🧑‍💻",
+                                                                       url="t.me/dhanush321")],
+                                                                                   [InlineKeyboardButton(text="ADD SECURITY GUARD BOT TO YOUR GROUP 😍",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/legendx22/GRANDROBOT")
